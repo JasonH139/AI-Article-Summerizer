@@ -1,3 +1,3 @@
-#AI Article Summerizer
+# AI Article Summerizer
 
-###try here https://jh-193-article-summarizer.netlify.app/
+### try here https://jh-193-article-summarizer.netlify.app/
