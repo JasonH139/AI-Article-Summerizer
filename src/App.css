@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#main{
+    width: 100vw;
+    min-height: 100vh;
+    padding: 30px 24px 160px 24px;
+    background-image: url(/back.jpg);
+    background-size: cover;
+}
+
+#logo{
+    width:6rem;
+    height:3rem;
+    object-fit: contain;
+}
+
+.black_btn {
+    @apply rounded-full border border-black bg-black py-1.5 px-5 text-sm text-white transition-all hover:bg-white hover:text-black;
+  }
+
+  .app {
+    @apply flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
+  }
+
+  .head_text {
+    @apply mt-5 text-5xl font-extrabold leading-[1.15] text-white sm:text-6xl text-center;
+  }
+
+  .orange_gradient{
+    @apply bg-gradient-to-r from-amber-600 to-rose-500 text-transparent inline-block bg-clip-text
+  }
+
+  .input{
+    @apply block w-full text-center rounded-md border border-gray-200 bg-white py-2 pl-10 pr-12 text-sm shadow-lg focus:border-black focus:border-black focus:outline-none focus:border-black focus:outline-none focus:ring-0
+  }
+  .submit{
+    @apply absolute w-5 right-0 mr-1.5 hover:border-gray-700 hover:border flex w-6 rounded items-center justify-center
+  }
+
+  .link_card{
+    @apply p-3 flex justify-start items-center flex-row gap-3 rounded-lg bg-white
+  }
+
+  .summary{
+    @apply rounded-xl border flex border-gray-200 p-5 bg-white
+  }
